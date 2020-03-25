@@ -5,6 +5,8 @@ document.addEventListener('keydown', function(e) {
   if (e.key == 'ArrowRight') {
     console.log(e.key)
     moveDodgerRight();
+  } else if (e.key == 'ArrowLeft') {
+
   }
 });
 
